@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Noto Sans JP", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap") format("eot");
+}
+body {
+  font-family: Noto Sans JP, sans-serif;
+}
+
+nav {
+  background: #fcfaf9;
+  box-shadow: 0 0 5px 4px #fcfaf9;
+  padding-bottom: 45px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin: 0 -10px;
+  text-decoration: none;
+  max-width: 80%;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+}
+
+li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.push-left {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.8rem;
+  border: none;
+  background: #292727;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
