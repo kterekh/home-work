@@ -1,9 +1,8 @@
 nav {
-  background: #fcfaf9;
-  box-shadow: 0 0 5px 4px #fcfaf9;
+  background: $primary-color;
+  box-shadow: 0 0 5px 4px $primary-color;
   padding: 30px;
 }
-
 ul {
   display: flex;
   align-items: center;
@@ -14,39 +13,33 @@ ul {
   right: 10%;
   left: 10%;
 }
-
 li {
   margin: -10px 20px;
   list-style: none;
-}
-li a {
-  text-decoration: none;
-  color: #020202;
-  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: $primary-font-color;
+    font-weight: bold;
+  }
 }
 
 :visited:link {
   text-decoration: none;
-  color: #020202;
+  color: $primary-font-color;
 }
-
 .push-right {
   margin-left: auto;
 }
-
 .push-left {
   margin-right: auto;
   font-weight: bold;
   font-size: 1.5rem;
 }
-
 button {
   cursor: pointer;
   padding: 0.8rem;
   border: none;
-  background: #020202;
+  background: $primary-font-color;
   color: white;
   margin-top: -5px;
 }
-
-/*# sourceMappingURL=style.css.map */
