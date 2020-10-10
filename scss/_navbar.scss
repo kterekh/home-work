@@ -1,12 +1,16 @@
+@mixin flexCenter($margin) {
+  display: flex;
+  align-items: center;
+  margin: $margin;
+}
+
 nav {
   background: $primary-color;
   box-shadow: 0 0 5px 4px $primary-color;
   padding: 30px;
 }
 ul {
-  display: flex;
-  align-items: center;
-  margin: 0 -10px;
+  @include flexCenter(0 -10px);
   text-decoration: none;
   max-width: 80%;
   position: absolute;
