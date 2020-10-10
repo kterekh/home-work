@@ -1,0 +1,20 @@
+.hero-section {
+
+  justify-content: center;
+  padding: 40px;
+  margin-left:-200px;
+  display: grid;
+  grid-template-columns: 500px 400px;
+  .info-section {
+      margin-top: 80px;
+  }
+  img {
+    width: 500px;
+    margin-left: 90px;
+    
+  }
+  .info-btn {
+      background-color: rgb(250, 119, 11);
+      border-radius: 3px;
+  }
+}

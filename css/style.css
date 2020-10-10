@@ -1,18 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 nav {
-  background: #fcfaf9;
-  box-shadow: 0 0 5px 4px #fcfaf9;
-  padding: 30px;
+  max-width: 1400px;
+  margin: auto;
+  padding-left: 90px;
 }
 
 ul {
   display: flex;
   align-items: center;
-  margin: 0 -10px;
+  margin: 20px 0;
   text-decoration: none;
   max-width: 80%;
-  position: absolute;
-  right: 10%;
-  left: 10%;
 }
 
 li {
@@ -47,6 +45,39 @@ button {
   background: #020202;
   color: white;
   margin-top: -5px;
+}
+
+.content {
+  max-width: 1400px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(150, 147, 147, 0.2), 0 6px 20px 0 rgba(133, 132, 132, 0.19);
+  padding: 10px;
+  margin: auto;
+  height: 3000px;
+}
+
+body {
+  background: #f8f7f7;
+  font-family: "Nunito", sans-serif;
+}
+
+.hero-section {
+  justify-content: center;
+  padding: 40px;
+  margin-left: -200px;
+  display: grid;
+  grid-template-columns: 500px 400px;
+}
+.hero-section .info-section {
+  margin-top: 80px;
+}
+.hero-section img {
+  width: 500px;
+  margin-left: 90px;
+}
+.hero-section .info-btn {
+  background-color: #fa770b;
+  border-radius: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

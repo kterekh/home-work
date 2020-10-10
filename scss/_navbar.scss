@@ -5,17 +5,17 @@
 }
 
 nav {
-  background: $primary-color;
-  box-shadow: 0 0 5px 4px $primary-color;
-  padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 90px;
 }
 ul {
-  @include flexCenter(0 -10px);
+  @include flexCenter(20px 0);
   text-decoration: none;
   max-width: 80%;
-  position: absolute;
-  right: 10%;
-  left: 10%;
+//   position: relative;
+//   right: 10%;
+//   left: 10%;
 }
 li {
   margin: -10px 20px;
