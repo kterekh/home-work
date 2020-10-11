@@ -1,0 +1,20 @@
+@import "../bootstrap/scss/bootstrap.scss";
+
+.card {
+  background: transparent;
+  border: none;
+  color: white;
+  width: 100px;
+  .card-img-top {
+    width: 70%;
+    margin: auto;
+    opacity: 70%;
+    transition: 1s;
+    &:hover {
+        opacity: 99%;
+    }
+  }
+  .card-title {
+    text-align: center;
+  }
+}

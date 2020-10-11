@@ -1,0 +1,17 @@
+.game-section {
+  background: $primary-color-gray;
+  color: white;
+  justify-content: center;
+  margin-top: -40px;
+  width: 1380px;
+  h1 {
+      padding:20px 20px 20px 20px;
+      text-align: center;
+  }
+  p {
+    padding:0px 20px 20px 20px;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+  }
+}
