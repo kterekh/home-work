@@ -8730,6 +8730,11 @@ h3 {
 .card .card-img-top {
   width: 70%;
   margin: auto;
+  opacity: 70%;
+  transition: 1s;
+}
+.card .card-img-top:hover {
+  opacity: 99%;
 }
 .card .card-title {
   text-align: center;
